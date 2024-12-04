@@ -1,0 +1,101 @@
+
+:root {
+
+	--font-family-headline: sans-serif;
+	--font-family-body: sans-serif;
+
+	--font-weight-headline: 500;
+	--font-weight-body: 400;
+	--font-weight-monospace: 300;
+
+	--font-size-x-small: 11px;
+	--font-size-small: 14px;
+	--font-size-normal: 16px;
+	--font-size-medium: 20px;
+	--font-size-large: 24px;
+	--font-size-x-large: 32px;
+	--font-size-xx-large: 32px;
+
+	--natural-easing: cubic-bezier(0.4, 0, 0.2, 1);
+
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: var(--font-size-normal);
+	font-family: var(--font-family-body);
+	font-weight: var(--font-weight-body);
+	line-height: 1.6;
+
+  perspective: 500px;
+
+  background-color: #d6f4ff;
+
+	// background-color: var(--color-grey);
+	// color: var(--color-black);
+	// letter-spacing: 0.02em;
+}
+
+img {
+	max-width: 100%;
+}
+
+.btn-reset {
+	outline: none;
+	border: none;
+
+	padding: 0;
+	margin: 0;
+
+	text-transform: inherit;
+
+	cursor: pointer;
+
+	background-color: transparent;
+}
+
+// @keyframes fade-in {
+// 	from {
+// 		opacity: 0;
+// 	}
+// }
+
+// @keyframes fade-out {
+// 	to {
+// 		opacity: 0;
+// 	}
+// }
+
+// @keyframes slide-in {
+// 	from {
+// 		transform: translateX(30px);
+// 	}
+// }
+
+// @keyframes slide-out {
+// 	to {
+// 		transform: translateX(30px);
+// 	}
+// }
+
+// ::view-transition-old(root) {
+// 	animation:
+// 		0.15s linear both fade-out,
+// 		0.3s var(--natural-easing) both slide-out;
+// }
+
+// ::view-transition-new(root) {
+// 	animation:
+// 		0.15s linear 0.15s both fade-in,
+// 		0.3s var(--natural-easing) 0.15s both slide-in;
+// }
