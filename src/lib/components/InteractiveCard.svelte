@@ -25,7 +25,7 @@
 
 	let mousePerc = $derived({
 		x: 1 - mouse.x / dimensions.width,
-		y: 1 - mouse.y / dimensions.height
+		y: mouse.y / dimensions.height
 	});
 
 	let nameParts = $derived(getName(name));

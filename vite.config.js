@@ -32,9 +32,9 @@ export default defineConfig({
 
 		BuildManifest({
 			manifest: {
-				name: 'FSNP',
-				short_name: 'FSNP',
-				description: 'Jon Ryder',
+				name: 'JT Trading Cards',
+				short_name: 'JT TCG',
+				description: 'Welcome to the exciting world of Jonny Thaw Trading Cards',
 				background_color: '#000'
 			}
 		})
